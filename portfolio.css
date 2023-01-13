@@ -15,7 +15,11 @@ body{
 	/* banner start */
 .navLogo{
 	font-size:3rem;
-	
+	/* margin-top:1rem; */
+	margin-bottom:1rem;
+}
+.navLogo:hover{
+	color:#34B7A7!important;
 }
 .banner{
 	margin-top:2rem;
@@ -47,6 +51,7 @@ body{
 	justify-content:center;
 	align-items:center;
 }
+
 .navImg img{
 	border-radius:50%;
 	/* transform:skewY(20deg); */
@@ -54,10 +59,8 @@ body{
    /* banner end */
    /* about start */
 .about{
-	margin-bottom:2rem;
-	margin-top:2rem;
-	padding-top:2rem;
-	padding-bottom:2rem;
+	padding-top:12rem;
+	padding-bottom:6rem;
 	background-color:#eeeeee;
 }
 .abt h2::after{
@@ -111,6 +114,10 @@ body{
 .progress-bar{
 	background-color:#34B7A7!important;
 }
+.talent{
+	padding-top:12rem;
+	padding-bottom:6rem;
+}
    /* skill end */
    /* resume start */
 .resumeIn h2::after{
@@ -153,10 +160,12 @@ body{
 	margin-top:1rem;
 }
 .resume{
-	margin-top:2rem;
-	padding-top:2rem;
-	padding-bottom:2rem;
+	/* margin-top:2rem; */
+	padding-bottom:6rem;
 	background-color:#eeeeee;
+}
+.resume1{
+	padding-top:12rem;
 }
 .resumeIn h2{
 	font-size:2rem;
@@ -166,6 +175,14 @@ body{
 .res{
 	box-shadow:5px 5px 8px rgba(0.2,0.2,0.2,0.2);
 	padding:2rem;
+}
+.hob{
+	margin-top:2.5rem;
+}
+.down{
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
    /* resume end */
    /* project start */
@@ -201,7 +218,6 @@ body{
 	right:0;
 	background-color:#111112;
 	text-align:center;
-	padding-top:3rem;
 }
 .portImg:hover .portCont{
 	opacity:1;
@@ -219,13 +235,16 @@ body{
 .portCont a{
 	font-size:1.5rem;
 }
+.project{
+	padding-top:12rem;
+	padding-bottom:6rem;
+}
    /* project */
    /* contact */
 .contactOut{
 	background-color:#eeeeee;
-	padding-bottom:2rem;
-	margin-top:2rem;
-	padding-top:2rem;
+	padding-bottom:6rem;
+	padding-top:12rem;
 }
 .cont{
 	box-shadow: 0px 2px 15px #34b79a47;
@@ -268,6 +287,10 @@ body{
 	color:#34B7A7;
 	font-size:1.2rem;
 }
+.deco{
+	text-decoration:none;
+	color:#34B7A7;
+}
 
 
 
@@ -285,6 +308,11 @@ body{
 }
 .navCont h2{
 	font-size:2rem;
+}
+.solo{
+	display:flex;
+	gap:2rem;
+	margin-top:4rem;
 }
    /* banner end */
    /* about start */
@@ -384,6 +412,9 @@ body{
 	margin-left:4rem;
 	margin-top:-3rem;
 }
+.about{
+	padding-top:4rem;
+}
 .abt h2::after{
 	width:6%;
 }
@@ -404,6 +435,10 @@ body{
 .progress label{
 	font-size:1.2rem;
 }
+.talent{
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
    /* skill end */
    /* resume start */
 .res{
@@ -411,6 +446,10 @@ body{
 }
 .resumeIn h2::after{
 	width:6%;
+}
+.resume{
+	padding-top:3rem;
+	padding-bottom:3rem;
 }
 	/* resume end */
 	/* project start */
@@ -422,13 +461,21 @@ body{
 }
 .portImg p{
 	padding:2rem;
-	font-size:1.5rem;
+	font-size:1rem;
 }
 .portCont a{
 	font-size:1.8rem;
 }
+.project{
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
    /* project end */
    /* contact start */
+.contactOut{
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
 .contactIn h2::after{
 	content:"";
 	height:2px;
